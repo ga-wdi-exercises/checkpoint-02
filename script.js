@@ -12,7 +12,8 @@ var instructor = {
   gender: 'male',
   hair: true,
 }
-console.log(instructor);
 // Add a `facial-hair` property to `instructor`.
+instructor.facialHair = true
+console.log(instructor);
 
 // Log the value of the `facial-hair` property to the console.
