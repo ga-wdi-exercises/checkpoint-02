@@ -1,3 +1,9 @@
 $('div.bulb').on('click', function() {
-    $(this).toggleClass('active');
+    var bulb = this;
+    $(bulb).toggleClass('active');
+    if ($(bulb).attr('id') == 'yellow') {
+      setTimeout (function() {
+        $(bulb).css('background', 'red');
+      }, 2000);
+    };
 });
