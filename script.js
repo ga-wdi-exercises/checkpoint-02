@@ -8,7 +8,11 @@ for (i=0;i<colors.length;i++)
 document.write("My favorite color is "+ colors[i] + "<br >");
 }
 // Create an `instructor` object that contains three key-value pairs.
-
+var instructor = {
+  name: "Adrian",
+  age: 27,
+  weight: 160
+}
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
