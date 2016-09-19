@@ -10,4 +10,5 @@
 
 // Log the value of the `facial-hair` property to the console.
 
-var colors = ["red","yellow","green"]
+var colors = ["red","yellow","green"];
+console.log("green");
