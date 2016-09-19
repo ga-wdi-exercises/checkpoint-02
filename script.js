@@ -8,7 +8,11 @@ for (i = "red"; i = "yellow"; i = "blue"){
   text += i;
 }
 // Create an `instructor` object that contains three key-value pairs.
-
+var instuctor{
+  name: "Rob"
+  age: "30"
+  
+}
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
