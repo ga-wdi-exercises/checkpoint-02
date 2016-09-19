@@ -17,5 +17,5 @@ var instructor = {
   school: "highschool"
 }
 // Add a `facial-hair` property to `instructor`.
-
+instructor.'facial-hair' = "mustache"
 // Log the value of the `facial-hair` property to the console.
