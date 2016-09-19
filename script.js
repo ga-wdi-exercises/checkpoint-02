@@ -1,7 +1,5 @@
 
-$(document).ready(function() {
-console.log(".js loaded")
-});
+
 // Create an array called `colors` that contains three colors.
 var colors=["red","green","blue"];
 
