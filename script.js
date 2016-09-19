@@ -11,7 +11,11 @@ for ( i in colors) {
   console.log("My favorite color is", colors[2]);
 }
 // Create an `instructor` object that contains three key-value pairs.
-
+var instructor = {
+  name: "John",
+  gender: "male",
+  school: "highschool"
+}
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
