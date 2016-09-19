@@ -13,5 +13,6 @@ var instructor = {
   claps: 'alone'
 }
 // Add a `facial-hair` property to `instructor`.
-instuctor['facial-hair'] = true;
+instructor['facial-hair'] = true;
 // Log the value of the `facial-hair` property to the console.
+console.log(instructor['facial-hair']);
