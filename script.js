@@ -21,6 +21,7 @@ for (color = 0; color < colors.length; ++color) {
     console.log("My favorite color is " + colors[color]);
 }
 
+var item
 var instructor = {
     foam:           "barbasol",
     blade:          "Harrys",
@@ -28,14 +29,16 @@ var instructor = {
     facialhair:     "instructor"
 }
 
-function findDisplay(x) {
+
+// found this on stackoverflow, I have a good(not great) idea of what it's doing per line.
+function locate(x) {
     var y = ''
-    for (var i = 0; i < instructor.length; instructor++) {
-        if (arr[i].index == x) {
-            y = arr[i];
+    for (var item = 0; item < instructor.length; instructor++) {
+        if (instructor[item].index == x) {
+            y = instructor[item];
             break;
         }
                                 
     }
-    return y;
+    console.log(y);
 }
