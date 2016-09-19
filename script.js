@@ -16,7 +16,11 @@ function myFavoriteColor () {
 myFavoriteColor()
 
 // Create an `instructor` object that contains three key-value pairs.
-
+var instructor = {
+  name: "Raymond Reddington",
+  years: 5,
+  skils: ["JS", "HTML", "CSS"]
+}
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
