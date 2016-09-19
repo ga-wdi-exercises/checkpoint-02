@@ -10,4 +10,12 @@
 
 // Log the value of the `facial-hair` property to the console.
 
+
+// $ colors[colors.length - 1] logs the last color
+
+var color
 var colors = ["red", "green", "blue"]
+
+for (color = 0; color < colors.length; ++color) {
+    console.log("My favorite color is " + colors[color]);
+}
