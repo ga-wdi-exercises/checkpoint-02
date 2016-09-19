@@ -10,7 +10,8 @@ for (i = 0; i < colors.length; i++) {
 var instructor = {
   name : 'Adrian',
   height : "6'",
-  hairColor : 'brown'
+  hairColor : 'brown',
+  facial-hair: true
 }
 // Add a `facial-hair` property to `instructor`.
 
