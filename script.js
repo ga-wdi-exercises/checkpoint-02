@@ -3,7 +3,10 @@ var colors = ['red', 'white', 'orange'];
 // Log the last item in the array to the console.
 console.log(colors[colors.length-1]);
 // Create a `for` loop that prints out "My favorite color is [insert color here]" for each item in `colors`.
-
+for (i=0;i<colors.length;i++)
+{
+document.write("My favorite color is "+ colors[i] + "<br >");
+}
 // Create an `instructor` object that contains three key-value pairs.
 
 // Add a `facial-hair` property to `instructor`.
