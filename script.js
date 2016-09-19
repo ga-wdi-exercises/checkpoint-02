@@ -15,3 +15,4 @@ console.log("green");
 for (i = 0; i < colors.length; i++){
   console.log("My favorite color is " + colors[i] + ".");
 }
+var instructor = {class:"WDI12", title:"teacher", workplace:"General Assembly"};
