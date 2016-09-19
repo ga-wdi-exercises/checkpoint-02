@@ -25,5 +25,17 @@ var instructor = {
     foam:           "barbasol",
     blade:          "Harrys",
     friendship:     "bestship",
-    facialhair:    "instructor"
+    facialhair:     "instructor"
+}
+
+function findDisplay(x) {
+    var y = ''
+    for (var i = 0; i < instructor.length; instructor++) {
+        if (arr[i].index == x) {
+            y = arr[i];
+            break;
+        }
+                                
+    }
+    return y;
 }
