@@ -11,11 +11,19 @@
 // Log the value of the `facial-hair` property to the console.
 
 
-// $ colors[colors.length - 1] logs the last color
 
 var color
 var colors = ["red", "green", "blue"]
 
+console.log(colors[colors.length - 1])
+
 for (color = 0; color < colors.length; ++color) {
     console.log("My favorite color is " + colors[color]);
+}
+
+var instructor = {
+    foam:           "barbasol",
+    blade:          "Harrys",
+    friendship:     "bestship",
+    facialhair:    "instructor"
 }
