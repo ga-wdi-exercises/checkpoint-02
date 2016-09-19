@@ -7,3 +7,7 @@ console.log("hi");
 document.getElementById('red').onclick = illuminateRed;
 document.getElementById('yellow').onclick = illuminateYellow;
 document.getElementById('green').onclick = illuminateGreen;
+
+function illuminateRed() {
+  document.getElementById('red').style.backgroundColor = 'red';}
+}
