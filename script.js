@@ -1,5 +1,5 @@
 // Create an array called `colors` that contains three colors.
-
+var colors = ['red','blue','yellow'];
 // Log the last item in the array to the console.
 
 // Create a `for` loop that prints out "My favorite color is [insert color here]" for each item in `colors`.
