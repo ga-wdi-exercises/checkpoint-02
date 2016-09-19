@@ -1,3 +1,7 @@
+
+$(document).ready(function() {
+console.log(".js loaded")
+});
 // Create an array called `colors` that contains three colors.
 
 // Log the last item in the array to the console.
