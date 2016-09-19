@@ -9,6 +9,7 @@ greenLight.on("click",turnGreenOn);
 
 function turnGreenOn() {
   console.log("GREEN LIGHT!");
+  
 }
 function turnRedOn (){
   console.log("RED LIGHT!");
