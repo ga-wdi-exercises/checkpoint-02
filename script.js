@@ -11,7 +11,7 @@ var instructor = {
   name : 'Adrian',
   height : "6'",
   hairColor : 'brown',
-  facial-hair: true
+  'facial-hair': true
 }
 // Add a `facial-hair` property to `instructor`.
 
