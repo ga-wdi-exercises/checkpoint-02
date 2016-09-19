@@ -6,15 +6,24 @@ activateRed = function() {
   redBulb.toggleClass("active")
 }
 
-activateYellow = function() {
-  yellowBulb.toggleClass("active")
+var redAfterYellow = function() {
+  redBulb.toggleClass("active")
 }
 
-activateGreen = function() {
+var activateYellow = function() {
+  yellowBulb.toggleClass("active");
+}
+
+var yellowBehavior = function() {
+  setTimeout(redAfterYellow, 2000);
+  setTimeout(activateYellow, 2000)
+}
+
+var activateGreen = function() {
   greenBulb.toggleClass("active")
 }
 
-
-redBulb.on("click", activateRed)
-yellowBulb.on("click", activateYellow)
-greenBulb.on("click", activateGreen)
+redBulb.on("click", activateRed);
+yellowBulb.on("click", yellowBehavior);
+yellowBulb.on("click", activateYellow);
+greenBulb.on("click", activateGreen);
