@@ -22,3 +22,11 @@ function handleRed() {
 }
 
 red.on("click", handleRed);
+
+
+// remove light on click
+
+// red.removeAttr("onclick");
+red.prop('onclick', null);
+green.removeAttr("click");
+yellow.removeAttr("click");
