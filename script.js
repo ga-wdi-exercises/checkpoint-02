@@ -22,5 +22,6 @@ var instructor = {
   skils: ["JS", "HTML", "CSS"]
 }
 // Add a `facial-hair` property to `instructor`.
-instructor."facial-hair"=true
+instructor["facial-hair"]=true
 // Log the value of the `facial-hair` property to the console.
+instructor["facial-hair"]
