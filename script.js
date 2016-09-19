@@ -1,4 +1,5 @@
 // Create an array called `colors` that contains three colors.
+var colorArray = ['blue', 'green', 'yellow'];
 
 // Log the last item in the array to the console.
 
