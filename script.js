@@ -17,3 +17,4 @@ for (i = 0; i < colors.length; i++){
 }
 var instructor = {class:"WDI12", title:"teacher", workplace:"General Assembly"};
 instructor["facial-hair"] = "none"
+console.log(instructor["facial-hair"]);
