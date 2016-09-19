@@ -1,10 +1,22 @@
 //create variable for all bulbs
-var $bulb = $('.bulb');
+var $bulbs = $('.bulb');
+var $yellow = $('#yellow');
+var $red = $('#red');
 
 //register event listener
-$bulb.on('click', function() {
-  //remove active class from all bulbs
-  $bulb.removeClass('active');
-  //add active class to the bulb we clicked on
-  $(this).addClass('active');
+$bulbs.on('click', function() {
+  activate($(this));
 })
+
+$yellow.on('click', function(){
+  window.setTimeout(function() {
+    activate($red);
+  }, 2000)
+})
+
+function activate(bulb) {
+  //remove active class from all bulbs
+  $bulbs.removeClass('active');
+  //add active class to the bulb we clicked on
+  bulb.addClass('active');
+}
