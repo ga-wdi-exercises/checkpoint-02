@@ -24,9 +24,10 @@ function handleRed() {
 red.on("click", handleRed);
 
 
-// remove light on click
+// remove light on click *could not figure this out, would like help!
 
 // red.removeAttr("onclick");
+// red.off("click");
 red.prop('onclick', null);
 green.removeAttr("click");
 yellow.removeAttr("click");
