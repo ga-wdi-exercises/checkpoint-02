@@ -1,7 +1,16 @@
 //Turns top red
 $("#red").on("click", function() {
-    $(this).css("background", "red");
+  $(this).toggleClass("bulb", onOrOff());
 });
+
+function onOrOff(){
+  if ($('#red.bulb').hasClass('bulb active')){
+    $(this).css("background-color", "red");
+  } else {
+    $(this).css("background-color", "gray");
+  }
+};
+
 
 //Turns middle yellow
 $("#yellow").on("click", function() {
