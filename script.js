@@ -9,8 +9,8 @@ var instructor = {
   hair: brown
   height : "5'10"
 // Create an `instructor` object that contains three key-value pairs.
-
-
+facial-hair: false
+};
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
