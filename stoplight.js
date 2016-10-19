@@ -2,8 +2,14 @@ $(document).ready(function(){
   console.log("hi");
 
   $(".bulb").on("click", function(){
-    $(this).removeClass(".bulb").addClass("active");
-  });
+      $(this).addClass("active");
+    });
+
+  $(".active").on("click", function(){
+      $(".bulb").removeClass("active");
+    });
+
+
 
 
 
