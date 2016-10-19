@@ -9,11 +9,11 @@ $(document).ready (function() {
   });
 
   $("#yellow").on("click", function (){
-    if ( $("#yellow").hasClass("active")) {
-      function remove() {
-        $("#yellow").removeClass("active");
-        $("#red").addClass("active");
-      }
+    function remove() {
+      $("#yellow").removeClass("active");
+      $("#red").addClass("active");
+    }
+    if ($("#yellow").hasClass("active")) {
       setTimeout(remove,2000);
     } else {
       $("#yellow").addClass("active");
