@@ -1,12 +1,13 @@
 // console.log("stoplight says hello");
 $(document).ready(function(){
   $("#red").on("click", function(){
-    $("#red").css("background-color", "red")
+    $(this).toggleClass("active");
   })
   $("#yellow").on("click", function(){
-    $("#yellow").css("background-color", "yellow")
+    $(this).toggleClass("active");
   })
   $("#green").on("click", function(){
-    $("#green").css("background-color", "green")
+    $(this).toggleClass("active");
   })
-})
+
+  })
