@@ -13,8 +13,14 @@ for(i=0; i<colors.length; i++)
 
 // Create an `instructor` object that contains three key-value pairs.
 
-
+var instructor = {
+  name: "blake",
+  gender: "male",
+  age: 110
+}
 
 // Add a `facial-hair` property to `instructor`.
+
+instructor["facial-hair"] = "none";
 
 // Log the value of the `facial-hair` property to the console.
