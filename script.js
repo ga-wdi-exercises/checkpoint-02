@@ -19,3 +19,4 @@ var instructor = {
 instructor["facial-hair"] = "whispy";
 
 // Log the value of the `facial-hair` property to the console.
+console.log(instructor["facial-hair"]);
