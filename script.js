@@ -24,3 +24,5 @@ var instructor = {
 instructor["facial-hair"] = "none";
 
 // Log the value of the `facial-hair` property to the console.
+
+console.log(instructor.facial-hair);
