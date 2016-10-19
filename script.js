@@ -16,4 +16,6 @@ var instructor = {
 
 // Add a `facial-hair` property to `instructor`.
 
+instructor["facial-hair"] = "whispy";
+
 // Log the value of the `facial-hair` property to the console.
