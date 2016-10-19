@@ -10,10 +10,14 @@ $(document).ready (function() {
 
   $("#yellow").on("click", function (){
     if ( $("#yellow").hasClass("active")) {
-    $("#yellow").removeClass("active");
-  } else {
-    $("#yellow").addClass("active");
-  }
+      function remove() {
+        $("#yellow").removeClass("active");
+        $("#red").addClass("active");
+      }
+      setTimeout(remove,2000);
+    } else {
+      $("#yellow").addClass("active");
+    }
   });
 
   $("#green").on("click", function (){
