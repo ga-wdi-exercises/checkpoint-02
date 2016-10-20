@@ -9,7 +9,8 @@ $(document).ready(function(){
     if (this.id === "yellow"){
       setTimeout(myFunction, 2000);
       function myFunction(){
-        self.attr('id', 'red');
+        $('#yellow').removeClass('active');
+        $('#red').addClass('active');
         console.log("hello");
       }
     }
