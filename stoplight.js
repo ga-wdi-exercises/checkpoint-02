@@ -4,6 +4,6 @@ $( document ).ready(function() {
 
 $( function() {
   $('#red').click( function() {
-    $(this).toggleClass(".active#red");
+    $(this).toggleClass("active#red");
   } );
 } );
