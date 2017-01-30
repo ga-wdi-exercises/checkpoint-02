@@ -4,7 +4,7 @@ Commit after each question.
 
 ## Javascript: Part I
 
-1. Link to `script.js` in `index.html`
+1. Link to `script.js` in `index.html` - Done
 
 1. View comments in `script.js` for the rest of this section's questions.
 
