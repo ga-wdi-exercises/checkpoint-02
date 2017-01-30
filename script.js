@@ -26,3 +26,19 @@ var instructor ={
 };
 
 instructor["facial-hair"] = "black";
+
+console.log(instructor[4]);
+
+$(document).ready(function(){
+
+});
+
+$("#red").click(function(){
+    $(this).css("background-color", "red");
+  });
+  $("#yellow").click(function(){
+      $(this).css('background-color', 'yellow');
+    });
+    $("#green").click(function(){
+        $(this).css('background-color', 'green');
+      });
