@@ -19,7 +19,8 @@ favColors();
 var instructor = {
   name: "james",
   hair: "long",
-  specialty: "wizardry"
+  specialty: "wizardry",
+  "facial-hair": "bearded"
 }
 
 // Add a `facial-hair` property to `instructor`.
