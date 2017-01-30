@@ -9,3 +9,17 @@
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
+
+var colors = ["red", 'blue', 'green']
+
+function hey () {
+for (var i=0; i < colors.length; i++)
+console.log("My favorite color is " + colors.if)
+}
+
+function instructor (facial-hair,name,hair-color){
+  this.facial-hair= beard;
+  this.name= james;
+  this.hair-color= brown;
+  console.log(instructor.facial-hair);
+}
