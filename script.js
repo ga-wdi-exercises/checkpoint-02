@@ -32,3 +32,6 @@ instructor.facial_hair = "Moustache";
 
 // Log the value of the `facial-hair` property to the console.
 
+
+console.log(instructor);
+
