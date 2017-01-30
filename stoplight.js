@@ -7,4 +7,10 @@ $('.bulb').on('click',function(){
       $(this).addClass('active');
       break;
   }
+  if($(this).is('#yellow')){
+    var myTimer = setTimeout(function(){
+      $('#yellow').removeClass('active')
+      $('#red').addClass('active')
+    },2000)
+  }
 })
