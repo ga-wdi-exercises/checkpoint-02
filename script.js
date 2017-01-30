@@ -25,3 +25,5 @@ var instructor = {
   age: 28,
   car: "Honda",
 }
+
+instructor.facialHair= "yes"
