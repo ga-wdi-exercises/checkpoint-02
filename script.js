@@ -27,3 +27,5 @@ var instructor = {
 }
 
 instructor.facialHair= "yes"
+
+console.log(instructor.facialHair); 
