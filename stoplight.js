@@ -3,11 +3,15 @@ $(".bulb").click(function(){
   if (isLightOn === false) {
     $(this).addClass('active')
     isLightOn = true
-  // } else {
-  //   $(this).removeClass('active')
-  //   isLightOn = false
+  } else {
+    for ($(".bulb")).each(function(){
+      $(this).removeClass('active')
+    })
+    // $(this).removeClass('active')
+
+    isLightOn = false
   }
-  })
+  }
 
 // $("#yellow").on($(this).addClass('active'), (function() {
 //   setTimeout(function() {
