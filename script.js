@@ -20,6 +20,6 @@ var instructor = {
 
 // Add a `facial-hair` property to `instructor`.
 
-
+instructor.facialhair= 'long';
 
 // Log the value of the `facial-hair` property to the console.
