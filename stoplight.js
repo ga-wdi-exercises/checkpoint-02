@@ -1,31 +1,31 @@
-var redLight = $(".bulb#red")
-var greenLight = $(".bulb#green")
-var yellowLight = $(".bulb#yellow")
+var redLight = $("#red")
+var greenLight = $("#green")
+var yellowLight = $("#yellow")
 
 
-if(greenLight.hasClass("active")) {
-  greenLight.click(function(){$(this).removeClass("active")
-  })
+greenLight.click(function(){
+if (greenLight.hasClass("active")) {
+  $(this).removeClass("active")
+  }
+else{$(this).addClass("active")
 }
-else{ greenLight.click(function(){$(this).addClass("active")
 })
-}
 
-
-if(redLight.hasClass("active")) {
-  redLight.click(function(){$(this).removeClass("active")
-  })
-}
+redLight.click(function(){
+  if(redLight.hasClass("active")) {
+  $(this).removeClass("active")
+  }
 else {
-redLight.click(function(){$(this).addClass("active")
-})
+$(this).addClass("active")
 }
+})
 
-if(yellowLight.hasClass("active")) {
-  yellowLight.click(function(){$(this).removeClass("active")
-  })
-}
+
+yellowLight.click(function() {
+  if(yellowLight.hasClass("active")) {
+  $(this).removeClass("active")
+  }
 else {
-yellowLight.click(function(){$(this).addClass("active")
-})
+$(this).addClass("active")
 }
+})
