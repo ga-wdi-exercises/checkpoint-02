@@ -19,9 +19,11 @@ $('#green').on('click',function () {
   $('#green').toggleClass('active');
 });
 // //  click yellow, and it switches to red after 2 seconds
-if ($('yellow').class('active')== true) {
-    var rmvCl = $('#yellow').removeClass('active');
-    var lightOff= $('#yellow').setInterval(rmvCl,2000);
-    // $('#red').addClass('active')
+if ($('#yellow').class('active')) {
+  function changeRed(){$('#yellow').removeClass('active');
+    $('#red').addClass('active')
+  }
+  setInterval(changeRed(),2000);
+
 };
 //make it so that only one light can be turned on at a time.
