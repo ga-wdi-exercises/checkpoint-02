@@ -9,3 +9,5 @@
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
+
+console.log("Hellow world");
