@@ -7,6 +7,13 @@ var colors = ["red","yellow","green"];
 console.log(colors[2]);
 // Create a `for` loop that prints out "My favorite color is [insert color here]" for each item in `colors`.
 
+function favColors() {
+  for(var i=0;i<colors.length;i++) {
+    console.log("My favorite color is " + colors[i]);
+  }
+}
+favColors();
+
 // Create an `instructor` object that contains three key-value pairs.
 
 // Add a `facial-hair` property to `instructor`.
