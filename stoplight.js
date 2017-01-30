@@ -1,22 +1,27 @@
 
 $(document).ready(function(){
 
+var yellow = $('#yellow');
 
 $('#red').on( "click", function() {
-  console.log('clicked red');
-  $('#red').toggleClass('active')
+  clearLights();
+  $('#red').toggleClass('active');
 });
 
 $('#yellow').on( "click", function() {
-  console.log('clicked yellow');
-  $('#yellow').toggleClass('active')
+  clearLights();
+  $('#yellow').toggleClass('active');
 });
 
 $('#green').on( "click", function() {
-  console.log('clicked green');
-  $('#green').toggleClass('active')
+  clearLights();
+  $('#green').toggleClass('active');
 });
 
-
+function clearLights(){
+  $('#red').removeClass('active');
+  $('#yellow').removeClass('active');
+  $('#green').removeClass('active');
+}
 
 });//end document ready
