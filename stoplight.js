@@ -11,8 +11,14 @@ function changeLight(){
   }
   else if ($(this).attr("id") == "yellow"){
     $("#yellow").addClass("active")
+    setTimeout(yellowToRed, 2000)
   }
   else if ($(this).attr("id") == "green"){
     $("#green").addClass("active")
   }
+}
+
+function yellowToRed(){
+  $("#yellow").removeClass("active")
+  $("#red").addClass("active")
 }
