@@ -5,11 +5,21 @@ var clearLight = $("#stoplight div")
 
 //Clear stoplight
 
-
-  while($("#stoplight").css("background-color") != "black"){
+var changeLights = function(){
+  if($("#stoplight").css("background-color") != "black"){
     clearLight.on("click").css({"background-color": "black"});
   }
 
-  if (pressOnRed.css() = "black"){
+  else if (pressOnRed.css("background-color") = "black"){
     pressOnRed.on("click").css({"background-color": "red"})
   }
+  else if (pressOnYellow.css("background-color") = "black"){
+    pressOnYellow.on("click").css({"background-color": "yellow"})
+  }
+  else if(pressOnGreen.css("background-color") = "black"){
+    pressOnGreen.on("click").css({"background-color": "green"})
+  }
+
+};
+
+changeLights();
