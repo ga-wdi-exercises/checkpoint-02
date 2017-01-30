@@ -23,3 +23,4 @@ var instructor = {
 instructor.facialhair= 'long';
 
 // Log the value of the `facial-hair` property to the console.
+console.log(instructor['facialhair']); 
