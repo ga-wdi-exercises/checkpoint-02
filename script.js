@@ -1,4 +1,9 @@
+console.log("JS Works!");
+
+
 // Create an array called `colors` that contains three colors.
+
+var colors = ["red", "yellow", "green"];
 
 // Log the last item in the array to the console.
 
