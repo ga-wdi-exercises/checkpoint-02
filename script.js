@@ -12,12 +12,14 @@ var colors = ['red', 'yellow', 'green'];
 
 // Create an `instructor` object that contains three key-value pairs.
 
-instructor = {
+var instructor = {
   class: "WDI",
   subject: "Javasript",
   day: "Monday"
 };
 
 // Add a `facial-hair` property to `instructor`.
+
+
 
 // Log the value of the `facial-hair` property to the console.
