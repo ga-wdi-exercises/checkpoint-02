@@ -1,10 +1,10 @@
 $("#red").on("click", function(){
-  $("red").toggleClass("activered");
-  // if(this.css().background-color === "#333")){
-  //   $(this).addClass(active);
-  // console.log(this)
-  // } else{
-  //   $(this).removeClass(active);
+  if($("#red").hasClass("activered")){
+    this.addClass("activered");
+  console.log(this)
+  } else{
+    $("#red").removeClass("activered");
+}
 });
 $("#yellow").on("click", function(){
   $("#yellow").css("background-color", "yellow");
