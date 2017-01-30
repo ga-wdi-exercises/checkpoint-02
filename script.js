@@ -9,9 +9,6 @@
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
-
-console.log("Hello World");
-
 var colors = ["red", "yellow", "green"];
 var colorsLength = colors.length;
 console.log(colors[2])
@@ -28,4 +25,4 @@ var instructor = {
 
 instructor.facialHair= "yes"
 
-console.log(instructor.facialHair); 
+console.log(instructor.facialHair);
