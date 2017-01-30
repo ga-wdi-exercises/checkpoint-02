@@ -11,3 +11,11 @@
 // Log the value of the `facial-hair` property to the console.
 
 console.log("Hello World");
+
+var colors = ["red", "yellow", "green"];
+var colorsLength = colors.length;
+console.log(colors[2])
+
+for (i= 0; i < [3]; i++) {
+  console.log ("My favorite color is "+ colors[i]);
+}
