@@ -13,6 +13,6 @@ var instructor = {
   drive: "fast",
 }
 // Add a `facial-hair` property to `instructor`.
-insturctor.facialhair = "none"
+instructor.facialhair = "none"
 // Log the value of the `facial-hair` property to the console.
 instructor.facialhair
