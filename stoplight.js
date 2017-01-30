@@ -22,22 +22,21 @@ $(document).ready(function(){
       $(`#${bulb}`).removeClass("active");
     });
 
-    
     switch(thisBulb) {
       case "green":
-        setTimeout(function(){
+        var greenTimeout = setTimeout(function(){
           $("#green").toggleClass("active");
           $("#yellow").toggleClass("active");
         }, 2000);
-        setTimeout(function(){
+        var yellowTimeout = setTimeout(function(){
           $("#yellow").toggleClass("active");
           $("#red").toggleClass("active");
         }, 4000);
         break;
       case "yellow":
-        setTimeout(function(){
-          $("yellow").toggleClass("active");
-          $("red").toggleClass("active");
+        var yellowTimeout = setTimeout(function(){
+          $("#yellow").toggleClass("active");
+          $("#red").toggleClass("active");
         }, 2000);
         break;
     }
