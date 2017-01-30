@@ -19,3 +19,9 @@ console.log(colors[2])
 for (i= 0; i < [3]; i++) {
   console.log ("My favorite color is "+ colors[i]);
 }
+
+var instructor = {
+  name: "Adrian",
+  age: 28,
+  car: "Honda",
+}
