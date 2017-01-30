@@ -1,4 +1,4 @@
-// event listeners to when click on light, it turns to its respective color
+// // event listeners to when click on light, it turns to its respective color
 // $('#red').on('click',function () {
 //   $('#red').addClass('active');
 // })
@@ -8,16 +8,20 @@
 // $('#green').on('click',function () {
 //   $('#green').addClass('active');
 // })
-// click a light that is on/ turns it off
+// // click a light that is on/ turns it off
 $('#red').on('click',function () {
   $('#red').toggleClass('active');
-})
+});
 $('#yellow').on('click',function () {
   $('#yellow').toggleClass('active');
-})
+});
 $('#green').on('click',function () {
   $('#green').toggleClass('active');
-})
-//  click yellow, and it switches to red after 2 seconds
-
+});
+// //  click yellow, and it switches to red after 2 seconds
+if ($('yellow').class('active')== true) {
+    var rmvCl = $('#yellow').removeClass('active');
+    var lightOff= $('#yellow').setInterval(rmvCl,2000);
+    // $('#red').addClass('active')
+};
 //make it so that only one light can be turned on at a time.
