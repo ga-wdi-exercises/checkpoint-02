@@ -27,4 +27,4 @@ var instructor = {
 
 // Log the value of the `facial-hair` property to the console.
 
-console.log("hello!");
+console.log(instructor["facial-hair"]);
