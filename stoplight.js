@@ -1,15 +1,18 @@
-$("#red").click(turnOn)
-$("#yellow").click(turnOn)
-$("#green").click(turnOn)
+$("#red").click(changeLight)
+$("#yellow").click(changeLight)
+$("#green").click(changeLight)
 
-function turnOn(){
-  if ($(this).attr("id") == "red") {
+function changeLight(){
+  if ($(this).hasClass("active")) {
+    ($(this).removeClass("active"))
+  }
+  else if ($(this).attr("id") == "red") {
     $("#red").addClass("active")
   }
-  if ($(this).attr("id") == "yellow"){
+  else if ($(this).attr("id") == "yellow"){
     $("#yellow").addClass("active")
   }
-  if ($(this).attr("id") == "green"){
+  else if ($(this).attr("id") == "green"){
     $("#green").addClass("active")
   }
 }
