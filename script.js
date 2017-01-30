@@ -3,8 +3,8 @@ var colors = ["purple", "brown", "violet"]
 // Log the last item in the array to the console.
 colors[2]
 // Create a `for` loop that prints out "My favorite color is [insert color here]" for each item in `colors`.
-for(colors = 0, colors > 3; colors ++){
-  console.log("my favorite color is"[colors])
+for(i = 0, i < colors.length; i++){
+  console.log("my favorite color is" colors[i])
 }
 // Create an `instructor` object that contains three key-value pairs.
 var instructor = {
@@ -13,6 +13,6 @@ var instructor = {
   drive: "fast",
 }
 // Add a `facial-hair` property to `instructor`.
-facialhair: "yes",
+insturctor.facialhair = "none"
 // Log the value of the `facial-hair` property to the console.
-instructor.facialhair="yes"
+instructor.facialhair
