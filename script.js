@@ -16,6 +16,12 @@ favColors();
 
 // Create an `instructor` object that contains three key-value pairs.
 
+var instructor = {
+  name: "james",
+  hair: "long",
+  specialty: "wizardry"
+}
+
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
