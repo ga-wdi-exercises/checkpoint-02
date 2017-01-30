@@ -1,19 +1,14 @@
-var turnYellow = $('#yellow')
 
+
+var turnYellow = $('#yellow')
 turnYellow.on("click", function(){
+
   $("#yellow").css("background-color", "yellow")
 });
 
-var turnGreen = $('#green')
 
+var turnGreen = $('#green')
 turnGreen.on("click", function(){
+
   $("#green").css("background-color", "green")
 })
-
-
-
-/*function changeBackgroundColorToRed(){
-  $("body").css("background-color", "red");
-};
-
-changeBackgroundColorToRed();*/
