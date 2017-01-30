@@ -9,3 +9,23 @@
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
+
+
+var colors  = ["red",  "green", "periwinkle"];
+
+console.log(colors[2]);
+
+for (var i = 0; i < colors.length; i++) {
+  console.log(`My favorite color is ${colors[i]}.`);
+}
+
+
+var instructor = {
+  age: 25,
+  favorite_language: "JavaScript"
+}
+
+
+instructor['facial-hair'] = "goatee";
+
+console.log(instructor['facial-hair']);
