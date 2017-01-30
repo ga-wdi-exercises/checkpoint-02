@@ -13,5 +13,5 @@ var instructor = {
   shoes: "crocs"
 };
 // Add a `facial-hair` property to `instructor`.
-
+instructor ["facial-hair"] = "beard";
 // Log the value of the `facial-hair` property to the console.
