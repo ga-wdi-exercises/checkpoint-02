@@ -12,8 +12,8 @@
 
 var colors = ["purple", "black", "brown"];
 
-var thirdColor = colors[3];
-console.log(colors[3]);
+
+console.log(colors[2]);
 
 for(i=0; i<colors.length; i++){
   console.log("my favorite color is" + colors[i]);
@@ -21,24 +21,12 @@ for(i=0; i<colors.length; i++){
 
 var instructor ={
      firstName: "Adrian",
-     Age:"34",
-     Gender: "male",
+     Age: 34,
+     Gender: "male"
 };
 
 instructor["facial-hair"] = "black";
 
-console.log(instructor[4]);
+console.log(instructor);
 
-$(document).ready(function(){
-
-});
-
-$("#red").click(function(){
-    $(this).css("background-color", "red");
-  });
-  $("#yellow").click(function(){
-      $(this).css('background-color', 'yellow');
-    });
-    $("#green").click(function(){
-        $(this).css('background-color', 'green');
-      });
+console.log(instructor['facial-hair']);
