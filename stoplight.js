@@ -1,11 +1,11 @@
 $('#red').click(() => {
-  $('#red').addClass( 'active');
+  $('#red').toggleClass( 'active');
 });
 
 $('#yellow').click(() => {
-  $('#yellow').addClass( 'active');
+  $('#yellow').toggleClass( 'active');
 });
 
 $('#green').click(() => {
-  $('#green').addClass( 'active');
+  $('#green').toggleClass( 'active');
 });
