@@ -7,6 +7,10 @@ $red.on('click', function() {
 })
 $yellow.on('click', function() {
   $yellow.toggleClass("active");
+  setInterval(function () {
+    $red.addClass("active");
+    $yellow.removeClass("active");
+  }, 2000);
 })
 $green.on('click', function() {
   $green.toggleClass("active");
