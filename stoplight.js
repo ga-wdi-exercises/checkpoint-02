@@ -15,7 +15,7 @@ var greenButton = $("#green");
 
 // redButton.on("click", "turnRed");
 // yellowButton.on("click", "turnYellow");
-// $("#green").on("click", "turnGreen");
+// greenButton.on("click", "turnGreen");
 
 redButton.on("click", function(){
 	if (redButton.hasClass("active")){
@@ -32,8 +32,10 @@ yellowButton.on("click", function(){
 		yellowButton.removeClass("active");
 	} else {
 	redButton.removeClass("active");
-	yellowButton.addClass("active");
+	setTimeout(yellowButton.addClass("active"), 2000);
 	greenButton.removeClass("active");
+
+	// setTimeout(yellowButton.removeClass("active"), 2000);
 	}
 });
 	
@@ -46,3 +48,5 @@ greenButton.on("click", function(){
 	greenButton.addClass("active");
 	}
 });
+
+
