@@ -20,14 +20,14 @@ instructor.facialhair = "got some"
 
 console.log(facialhair)
 
-$("#red").click(function()){
+$("#red").on("click", function()){
   $("#red").toggleClass("active");
 }
 
-$("#yellow").click(function()){
-  $("#yellow").toggleClass("active");
+$("#yellow").on("click", function()){
+  $("#yellow").addClass("active");
 }
 
-$("#green").click(function()){
+$("#green").on("click", function()){
   $("yellow").toggleClass("active");
 }
