@@ -3,11 +3,11 @@ let $yellow = $("#yellow");
 let $green = $("#green");
 
 $red.on('click', function() {
-  $red.addClass("active");
+  $red.toggleClass("active");
 })
 $yellow.on('click', function() {
-  $yellow.addClass("active");
+  $yellow.toggleClass("active");
 })
 $green.on('click', function() {
-  $green.addClass("active");
+  $green.toggleClass("active");
 })
