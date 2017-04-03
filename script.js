@@ -2,7 +2,11 @@ console.log('working');
 
 var colors = ['green', 'blue', 'yellow'];
 
+console.log(colors[2]);
 
+for (var i = 0; i < colors.length; i++ ) {
+  console.log(`my favorite color is ${colors[i]}`)
+}
 
 
 // Create an array called `colors` that contains three colors.
