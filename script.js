@@ -9,3 +9,24 @@
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
+
+$(document).ready(function() {
+  console.log("ready");
+});
+
+
+let colors = ["red", "yellow", "green"];
+console.log(colors[2]);
+
+for(let i = 0; i < colors.length; i++) {
+  console.log("My favorite color is " + colors[i]);
+}
+
+let instructor = {
+  name: "Ick" ,
+  age: "26" ,
+  gender: "male" ,
+};
+
+instructor["facial-hair"] = "unknown";
+console.log(instructor["facial-hair"]);
