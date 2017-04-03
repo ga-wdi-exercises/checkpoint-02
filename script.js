@@ -23,3 +23,6 @@ for(i=0; i<colors.length; i++){
    intelligence: "genius!"
  };
  console.log(instructor.firstName);
+
+ instructor.Facial_Hair= "I have facial hair!"
+ // console.log(Facial_Hair);
