@@ -4,6 +4,8 @@ var colors = ['red', 'green', 'yellow']
 
 // Log the last item in the array to the console.
 
+console.log(colors[2]);
+
 // Create a `for` loop that prints out "My favorite color is [insert color here]" for each item in `colors`.
 
 // Create an `instructor` object that contains three key-value pairs.
