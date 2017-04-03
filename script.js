@@ -7,7 +7,11 @@ colors.forEach(function(item) {
   console.log("My favorite color is " + item);
 })
 // Create an `instructor` object that contains three key-value pairs.
-
+var instructor = {
+  name: "Andy",
+  gender: "Male",
+  course: "Checkpoint"
+};
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
