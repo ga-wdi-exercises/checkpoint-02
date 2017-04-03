@@ -29,3 +29,11 @@ var instructor = {
 
 instructor.facialHair = "Beard";
 console.log(instructor.facialHair);
+
+$(".bulb .active").on("click", function() {
+	this.css(blue);
+})
+
+
+
+
