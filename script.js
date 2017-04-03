@@ -11,9 +11,7 @@
 // Log the value of the `facial-hair` property to the console.
 
 let colors = ["red", "yellow", "green"];
-
-let lastColor = colors[3];
-console.log(lastColors[]);
+console.log(colors[2]);
 
 for(let i = 0; i < colors.length; i++) {
   console.log("My favorite color is " + colors[i]);
@@ -25,5 +23,5 @@ let instructor = {
   gender: "male" ,
 };
 
-instructor["facial-hair"] = "black";
+instructor["facial-hair"] = "unknown";
 console.log(instructor["facial-hair"]);
