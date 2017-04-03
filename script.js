@@ -1,4 +1,5 @@
-let colors = ["red", "blue", "green"];
+var colors = ["red", "blue", "green"];
+console.log(colors[2]);
 
 // Create an array called `colors` that contains three colors.
 
