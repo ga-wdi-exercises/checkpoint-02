@@ -1,3 +1,5 @@
+let colors = ["red", "blue", "green"];
+
 // Create an array called `colors` that contains three colors.
 
 // Log the last item in the array to the console.
