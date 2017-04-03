@@ -7,7 +7,7 @@ $('#yellow').click(() => {
   $('.bulb').removeClass('active');
   $('#yellow').addClass( 'active')
   let lightTimer = setTimeout(() => {
-    $('#yellow').removeClass( 'active');
+    $('.bulb').removeClass( 'active');
     $('#red').addClass( 'active');},2000);
 });
 
