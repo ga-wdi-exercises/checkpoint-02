@@ -1,12 +1,24 @@
 console.log('working');
 
-var colors = ['green', 'blue', 'yellow'];
+let colors = ['green', 'blue', 'yellow'];
 
 console.log(colors[2]);
 
-for (var i = 0; i < colors.length; i++ ) {
-  console.log(`my favorite color is ${colors[i]}`)
+for (let i = 0; i < colors.length; i++ ) {
+  console.log(`my favorite color is ${colors[i]}`);
 }
+
+let instructor = {
+  smart:true,
+  'shirt color':'blue',
+  takescoffee:'with milk'
+}
+
+instructor['facial hair'] = 'cowboy rugged';
+
+console.log(instructor['facial hair']);
+
+
 
 
 // Create an array called `colors` that contains three colors.
