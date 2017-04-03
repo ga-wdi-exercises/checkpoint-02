@@ -1,11 +1,24 @@
-// Create an array called `colors` that contains three colors.
+//Abe - Create an array called `colors` that contains three colors.
 
-// Log the last item in the array to the console.
+var colors = ["Blue", "Green", "Orange"];
 
-// Create a `for` loop that prints out "My favorite color is [insert color here]" for each item in `colors`.
+// Abe - Log the last item in the array to the console.
 
-// Create an `instructor` object that contains three key-value pairs.
+console.log (colors[2]);
 
-// Add a `facial-hair` property to `instructor`.
+// Abe - Create a `for` loop that prints out "My favorite color is [insert color here]" for each item in `colors`.
 
-// Log the value of the `facial-hair` property to the console.
+for (i=0; i < colors.length ; i++) {
+  "My favorite color is" + "" + colors[i];
+}
+
+// Abe - Create an `instructor` object that contains three key-value pairs.
+
+var instructor = {firstName:"Mark" , lastName:"Smith" , gaProgram: "WDI"};
+// Abe -- Add a `facial-hair` property to `instructor`.
+
+instructor.facial-hair = "None"
+
+// Abe - Log the value of the `facial-hair` property to the console.
+
+console.log (instructor.facial-hair);
