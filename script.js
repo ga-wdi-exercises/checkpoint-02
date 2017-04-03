@@ -1,3 +1,10 @@
+console.log('working');
+
+var colors = ['green', 'blue', 'yellow'];
+
+
+
+
 // Create an array called `colors` that contains three colors.
 
 // Log the last item in the array to the console.
