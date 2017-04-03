@@ -34,30 +34,52 @@ instructor.facialhair = "none";
 
 
 $("#red").click(function() {
+
+if($("#red").hasClass("active")) {
+	$("#red").removeClass("active");
+	} else {
+
 	$("#red").addClass("active");
 	$("#yellow").removeClass("active");
 	$("#green").removeClass("active");
-	});
 
+}
+
+
+	});
 
 
 $("#green").click(function() {
+
+	if($("#green").hasClass("active")) {
+	$("#green").removeClass("active");
+
+	} else {
 	$("#green").addClass("active");
 	$("#yellow").removeClass("active");
 	$("#red").removeClass("active");
-	});
+	}
+
+});
 
 
 $("#yellow").click(function() {
+		if($("#yellow").hasClass("active")) {
+		$("#yellow").removeClass("active");
+
+	} else {
+
 	$("#yellow").addClass("active");
 	$("#green").removeClass("active");
 	$("#red").removeClass("active");
-	});
+	}
 
 
 
 });
 
+
+});
 
 
 
