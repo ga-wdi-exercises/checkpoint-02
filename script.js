@@ -13,5 +13,5 @@ var instructor = {
   course: "Checkpoint"
 };
 // Add a `facial-hair` property to `instructor`.
-
+instructor["facial-hair"] = true;
 // Log the value of the `facial-hair` property to the console.
