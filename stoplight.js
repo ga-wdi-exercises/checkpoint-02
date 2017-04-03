@@ -1,17 +1,15 @@
 $('#red').click(function() {
-  alert("clicked red");
-  $(this).toggleClass('.active');
+  $(this).toggleClass('active');
 });
 
 
 
 $('#yellow').click(function() {
-  alert("clicked yellow");
-  $(this).toggleClass('.active');
+  $(this).toggleClass('active');
 });
 
 
 $('#green').click(function() {
-  alert("clicked green");
-  $(this).toggleClass('.active');
+  // console.log($(this));
+  $(this).toggleClass('active');
 });
