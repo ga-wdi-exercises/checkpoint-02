@@ -12,3 +12,7 @@
 
 let colors = ["blue", "red", "green"];
 console.log(colors[2]);
+
+for(i=0; i<colors.length; i++){
+   console.log("my favorite color is " + colors[i]);
+ }
