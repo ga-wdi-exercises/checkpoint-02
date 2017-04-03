@@ -25,4 +25,4 @@ for(i=0; i<colors.length; i++){
  console.log(instructor.firstName);
 
  instructor.Facial_Hair= "I have facial hair!"
- // console.log(Facial_Hair);
+ console.log(instructor.Facial_Hair);
