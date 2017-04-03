@@ -9,3 +9,6 @@
 // Add a `facial-hair` property to `instructor`.
 
 // Log the value of the `facial-hair` property to the console.
+
+let colors = ["blue", "red", "green"];
+console.log(colors[2]);
