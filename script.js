@@ -10,6 +10,11 @@
 
 // Log the value of the `facial-hair` property to the console.
 
+$(document).ready(function() {
+  console.log("ready");
+});
+
+
 let colors = ["red", "yellow", "green"];
 console.log(colors[2]);
 
