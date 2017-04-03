@@ -3,7 +3,11 @@ $("#red").click(() => {
  });
 
 $("#yellow").click(() => {
-    $("#yellow").toggleClass( "active");
+    $("#yellow").addClass( "active");
+    setInterval(() => {
+      $("#yellow").removeClass("active");
+      $("#red").addClass("active");
+    }, 2000);
  });
 
  $("#green").click(() => {
