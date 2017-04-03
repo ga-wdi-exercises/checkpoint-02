@@ -18,20 +18,31 @@ var greenButton = $("#green");
 // $("#green").on("click", "turnGreen");
 
 redButton.on("click", function(){
+	if (redButton.hasClass("active")){
+		redButton.removeClass("active");
+	} else {
 	redButton.addClass("active");
 	yellowButton.removeClass("active");
 	greenButton.removeClass("active");
+	}
 });
 	
 yellowButton.on("click", function(){
+	if (yellowButton.hasClass("active")){
+		yellowButton.removeClass("active");
+	} else {
 	redButton.removeClass("active");
 	yellowButton.addClass("active");
 	greenButton.removeClass("active");
+	}
 });
 	
 greenButton.on("click", function(){
+	if (greenButton.hasClass("active")){
+		greenButton.removeClass("active");
+	} else {
 	redButton.removeClass("active");
 	yellowButton.removeClass("active");
 	greenButton.addClass("active");
-	
+	}
 });
