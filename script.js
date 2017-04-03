@@ -21,6 +21,9 @@ for (var i = 0; i < colors.length; i++) {
 
 // Create an `instructor` object that contains three key-value pairs.
 
+
 // Add a `facial-hair` property to `instructor`.
+
+instructor.facialhair = "none";
 
 // Log the value of the `facial-hair` property to the console.
