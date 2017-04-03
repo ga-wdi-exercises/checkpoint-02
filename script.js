@@ -15,3 +15,4 @@ var instructor = {
 // Add a `facial-hair` property to `instructor`.
 instructor.facial_hair = true;
 // Log the value of the `facial-hair` property to the console.
+console.log(instructor.facial_hair);
