@@ -33,6 +33,7 @@ instructor.facialhair = "none";
 // Log the value of the `facial-hair` property to the console.
 
 
+
 $("#red").click(function() {
 
 if($("#red").hasClass("active")) {
@@ -64,20 +65,18 @@ $("#green").click(function() {
 
 
 $("#yellow").click(function() {
-		if($("#yellow").hasClass("active")) {
-		$("#yellow").removeClass("active");
+	 
+	if($("#yellow").hasClass("active")) {
+	$("#yellow").removeClass("active");
 
-	} else {
+	} else { 
 
 	$("#yellow").addClass("active");
 	$("#green").removeClass("active");
 	$("#red").removeClass("active");
+
 	}
-
-
-
 });
-
 
 });
 
@@ -88,10 +87,5 @@ $("#yellow").click(function() {
 
 
 
-/*1. Create an event listener(s) so that when you click on a light, it turns to its respective color (i.e., top light turns red). Examine `style.css` first and examine how the red light is being styled. 
 
-1. If you click a light that is already on, it turns off.
 
-1. If you click yellow, it switches to red after two seconds.
-
-1. Make it so that only one light can be turned on at a time (e.g., both red and yellow cannot be on at the same time). */
