@@ -17,3 +17,26 @@ var instructor = {
 instructor["facial-hair"] = "beard";
 // Log the value of the `facial-hair` property to the console
 console.log(instructor["facial-hair"]);
+
+$( document ).ready(function() {
+  $( "#red" ).on("click", function() {
+  $( this ).turnToRed;
+})
+function turnToRed() {
+  $('#red').toggleClass(bulbRed);
+}
+
+$( "#yellow" ).on("click", function() {
+$( this ).turnToYellow;
+})
+function turnToYellow() {
+$('#yellow').toggleClass(bulbYellow);
+}
+
+$( "#green" ).on("click", function() {
+$( this ).turnToGreen;
+})
+function turnToGreen() {
+$('#green').toggleClass(bulbGreen);
+}
+});
