@@ -26,14 +26,14 @@ body {
   background-color: #555;
 }
 
-.active#red {
+.activered {
   background-color: red;
 }
 
-.active#yellow {
+.activeyellow {
   background-color: yellow;
 }
 
-.active#green {
+.activegreen {
   background-color: green;
 }
