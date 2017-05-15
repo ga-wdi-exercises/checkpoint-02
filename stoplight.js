@@ -5,18 +5,20 @@ document.getElementById('green').onclick = illuminateGreen;
 
 function illuminateRed() {
   clearLights();
-  document.getElementById('stopLight').style.backgroundColor = "red";
-  
+  var red = document.getElementById('red');
+  red.bulb.style.background-color = "red";
 }
 
 function illuminateYellow() {
   clearLights();
-  document.getElementById('stopLight').style.backgroundColor = "red";
+  var yellow = document.getElementById('yellow');
+  yellow.bulb.style.background-color = "yellow";
 }
 
 function illuminateGreen() {
   clearLights();
-  document.getElementById('stopLight').style.backgroundColor = "red";
+ var green = document.getElementById('green');
+    green.bulb.style.background-color = "green";
 }
 
 
