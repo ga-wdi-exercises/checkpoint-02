@@ -1,9 +1,11 @@
 $(document).ready(function() {
   $('#red').click(function() {
+    $('#yellow, #green').removeClass("active");
     $('#red').toggleClass("active");
   })
 
   $('#yellow').click(function() {
+    $('#red, #green').removeClass("active");
     $('#yellow').toggleClass("active");
 
     var changetoRed = setInterval(yellowChangeRed, 2000);
@@ -17,6 +19,7 @@ $(document).ready(function() {
   })
 
   $('#green').click(function() {
+    $('#red, #yellow').removeClass("active");
     $('#green').toggleClass("active");
   })
 })
