@@ -18,22 +18,25 @@ body {
   background-color: #333;
 }
 
-.bulb {
+.bulbRed {
   width: 125px;
   height: 125px;
   margin: 0 auto;
   border-radius: 100%;
-  background-color: #555;
-}
-
-.active#red {
   background-color: red;
 }
 
-.active#yellow {
+.bulbYellow {
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+  border-radius: 100%;
   background-color: yellow;
 }
-
-.active#green {
+.bulbGreen {
+  width: 125px;
+  height: 125px;
+  margin: 0 auto;
+  border-radius: 100%;
   background-color: green;
 }
